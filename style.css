@@ -46,6 +46,10 @@ a {
     color: #0cc18d;
 }
 
+.nav {
+    display: flex;
+    align-items: center;
+
 .nav__item {
     font-family: 'Montserrat Alternates', sans-serif;
     font-style: normal;
