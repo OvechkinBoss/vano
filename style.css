@@ -23,7 +23,7 @@ a {
     text-decoration: none;
 }
 
-/* Index */ 
+/* Index */
 
 .container {
     width: 100%;
@@ -49,6 +49,7 @@ a {
 .nav {
     display: flex;
     align-items: center;
+}
 
 .nav__item {
     font-family: 'Montserrat Alternates', sans-serif;
