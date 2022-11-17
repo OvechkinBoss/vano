@@ -94,6 +94,7 @@ a {
 .hero__left {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin-right: 5%;
 }
 
@@ -112,8 +113,9 @@ a {
 }
 
 .hero__video {
-    height: 516.11px;
-    width: 895.84px;
+    margin-top: 10%;
+    height: 500px;
+    width: 600px;
     border-radius: 50px;
 }
 
