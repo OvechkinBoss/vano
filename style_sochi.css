@@ -3,10 +3,12 @@ html {
     font-family: 'Shadows Into Light', cursive;
     font-family: 'Mulish', sans-serif;
     background-color: #e5e5e5;
+    font-weight: 300;
 }
 
 h1 {
     margin: 0;
+    font-weight: 700;
 }
 
 * {
@@ -39,7 +41,7 @@ a {
     align-items: center;
     padding: 0% 10%;
     border-bottom: 1px solid #a6b7b2;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 .header__logo {
@@ -48,7 +50,7 @@ a {
     font-size: 32px;
     font-family: 'Shadows Into Light', cursive;
     margin-right: 35%;
-    color: #0cc18d;
+    color: #245852;
 }
 
 .nav {
@@ -69,15 +71,15 @@ a {
 }
 
 .nav__item:hover {
-    border-bottom: 2px solid #0cc18d;
+    border-bottom: 2px solid #245852;
 }
 
 .nav__item:focus {
-    border-bottom: 2px solid #0cc18d;
+    border-bottom: 2px solid #245852;
 }
 
 .nav__item:active {
-    border-bottom: 2px solid #0cc18d;
+    border-bottom: 2px solid #245852;
 }
 
 /* Hero */
@@ -90,8 +92,9 @@ a {
 .hero__heading {
     font-size: 40px;
     margin-bottom: 2%;
-    color: #0cc18d;
+    color: #245852;
     margin-right: 150px;
+    font-weight: 700;
 }
 
 .hero__heading_text {

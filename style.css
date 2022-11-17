@@ -6,6 +6,11 @@ html {
 
 h1 {
     margin: 0;
+    font-weight: 700;
+}
+
+.span {
+    font-weight: 300;
 }
 
 * {
@@ -43,7 +48,8 @@ a {
     font-size: 32px;
     font-family: 'Shadows Into Light', cursive;
     margin-right: 35%;
-    color: #0cc18d;
+    color: #245852;
+    font-weight: 700;
 }
 
 .nav {
@@ -64,15 +70,18 @@ a {
 }
 
 .nav__item:hover {
-    border-bottom: 2px solid #0cc18d;
+    border-bottom: 2px solid #245852;
+    font-weight: 700;
 }
 
 .nav__item:focus {
-    border-bottom: 2px solid #0cc18d;
+    border-bottom: 2px solid #245852;
+    font-weight: 700;
 }
 
 .nav__item:active {
-    border-bottom: 2px solid #0cc18d;
+    border-bottom: 2px solid #245852;
+    font-weight: 700;
 }
 
 /* Hero */
@@ -97,7 +106,8 @@ a {
 .hero__heading {
     font-size: 40px;
     margin-bottom: 2%;
-    color: #0cc18d;
+    color: #245852;
+    font-weight: 700;
 }
 
 .hero__text {
