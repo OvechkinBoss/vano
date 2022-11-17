@@ -1,8 +1,8 @@
 html {
     font-family: 'Bebas Neue', cursive;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-family: 'Mulish', sans-serif;
-    background-color: #245852;
+    background-color: #e5e5e5;
     font-weight: 300;
 }
 
@@ -35,7 +35,7 @@ a {
 }
 
 .header__container {
-    height: 55px;
+    height: 54px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -50,7 +50,7 @@ a {
     font-size: 32px;
     font-family: 'Bebas Neue', cursive;
     margin-right: 35%;
-    color: #fff;
+    color: #245852;
 }
 
 .nav {
@@ -64,22 +64,22 @@ a {
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    color: #fff;
+    color: #245852;
     margin-right: 60px;
     padding: 14px;
     transition: border .12s ease-in;
 }
 
 .nav__item:hover {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #245852;
 }
 
 .nav__item:focus {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #245852;
 }
 
 .nav__item:active {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #245852;
 }
 
 /* Hero */
@@ -87,36 +87,40 @@ a {
 .hero__container {
     display: flex;
     flex-direction: row;
-    margin-bottom: 5%;
     padding: 0% 5%;
+    margin-bottom: 5%;
 }
 
 .hero__left {
+    position: relative;
+}
+
+.hero__img_left {
+    position: relative;
+    height: 40%;
+    width: 70%;
+    margin-bottom: 5%;
+}
+
+.hero__img_right {
+    position: relative;
+    height: 40%;
+    width: 70%;
+    margin-left: 10%;
+}
+
+.hero__right {
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    margin-right: 5%;
 }
 
 .hero__heading {
+    font-size: 30px;
     font-weight: 700;
-    color: #fff;
-    font-size: 20px;
-    margin-bottom: 5%;
-    text-align: center;
-}
-
-.hero__text {
-    color: #fff;
-    font-size: 16px;
-    text-align: center;
-}
-
-.hero__video {
-    margin-top: 15%;
-    height: 500px;
-    width: 600px;
-    border-radius: 50px;
+    color: #245852;
+    margin-bottom: 2%;
 }
 
 /* Footer */
@@ -139,5 +143,5 @@ a {
     display: flex;
     align-items: center;
     margin: auto;
-    color: #fff;   
+    color: #424242;   
 }

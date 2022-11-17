@@ -1,5 +1,5 @@
 html {
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     font-family: 'Shadows Into Light', cursive;
     font-family: 'Mulish', sans-serif;
 }
@@ -46,10 +46,12 @@ a {
 
 .header__logo {
     font-size: 32px;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Bebas Neue', cursive;
     margin-right: 35%;
     color: #245852;
     font-weight: 700;
+    display: flex;
+    align-items: center;
 }
 
 .nav {
