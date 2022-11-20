@@ -91,6 +91,14 @@ a {
     padding: 0% 5%;
 }
 
+.hero__heading {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10%;
+}
+
 .hero__left {
     display: flex;
     flex-direction: column;
@@ -98,7 +106,7 @@ a {
     margin-right: 5%;
 }
 
-.hero__heading {
+.hero__heading_text {
     font-weight: 700;
     color: #fff;
     font-size: 20px;
@@ -112,11 +120,13 @@ a {
     text-align: center;
 }
 
+.hero__right {
+    display: flex;
+    align-items: center;
+}
+
 .hero__video {
-    margin-top: 15%;
-    height: 500px;
-    width: 600px;
-    border-radius: 50px;
+    border-radius: 15px;
 }
 
 /* Footer */
