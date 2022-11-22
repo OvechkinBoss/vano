@@ -48,6 +48,7 @@ a {
     display: flex;
     align-items: center;
     font-size: 32px;
+    white-space: nowrap;
     font-family: 'Bebas Neue', cursive;
     margin-right: 35%;
     color: #245852;
